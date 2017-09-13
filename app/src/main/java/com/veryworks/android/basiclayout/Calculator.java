@@ -183,7 +183,7 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
 
     private void calc3(){
         String inputText      = "34+15*3-5/10";
-        String splittedText[] = inputText.split("(?<=[*/+-])|?=[*/+-]");
+        String splittedText[] = inputText.split("(?<=[*/+-])|(?=[*/+-])");
 
         String temp[] = { "34", "+", "15", "*", "3", "-", "5", "-", "10"};
         ArrayList<String> result =  new ArrayList<>();
