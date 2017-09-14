@@ -298,16 +298,16 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
         dummy.setBackground(org.getBackground());
         dummy.setWidth(org.getWidth());
         dummy.setHeight(org.getHeight());
-
         // 부모 레이아웃 위치 + 현재 나의 위치 계산
         LinearLayout parent = (LinearLayout) target.getParent();
-        final float orgX = parent.getX() + target.getX();
-        final float orgY = parent.getY() + target.getY();
-
+        float orgX = parent.getX() + target.getX();
+        float orgY = parent.getY() + target.getY();
         // 더미를 삽입하고 초기 위치를 설정해준다.
         stage.addView(dummy);
         dummy.setX(orgX);
         dummy.setY(orgY);
+
+        layout1.addView(dummy);
         // 애니메이션 셋 만들기
         ObjectAnimator aniY = ObjectAnimator.ofFloat(
                 dummy, "y", goalLocation.getY() // 미리 삽입해둔 타겟의 현재위치
