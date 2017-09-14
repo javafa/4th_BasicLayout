@@ -2,6 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
@@ -63,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textResult">
 
         <Button
-            android:id="@+id/btn_7"
+            android:id="@+id/btn_c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="1dp"
@@ -71,10 +72,11 @@
             android:layout_weight="1"
             android:background="@color/myGray"
             android:text="c"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
-            android:id="@+id/btn_8"
+            android:id="@+id/btn_open"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="1dp"
@@ -82,10 +84,11 @@
             android:layout_weight="1"
             android:background="@color/myGray"
             android:text="("
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
-            android:id="@+id/btn_9"
+            android:id="@+id/btn_close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="1dp"
@@ -93,7 +96,8 @@
             android:layout_weight="1"
             android:background="@color/myGray"
             android:text=")"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
             android:id="@+id/btn_plus"
@@ -105,7 +109,8 @@
             android:layout_weight="1"
             android:background="@color/myGray"
             android:text="+"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
     </LinearLayout>
 
     <LinearLayout
@@ -128,7 +133,8 @@
             android:layout_weight="1"
             android:background="@color/myBlack"
             android:text="7"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
             android:id="@+id/btn_8"
@@ -139,7 +145,8 @@
             android:layout_weight="1"
             android:background="@color/myBlack"
             android:text="8"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
             android:id="@+id/btn_9"
@@ -150,10 +157,11 @@
             android:layout_weight="1"
             android:background="@color/myBlack"
             android:text="9"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
-            android:id="@+id/btn_plus"
+            android:id="@+id/btn_minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="1dp"
@@ -162,7 +170,8 @@
             android:layout_weight="1"
             android:background="@color/myGray"
             android:text="-"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
     </LinearLayout>
 
     <LinearLayout
@@ -185,7 +194,8 @@
             android:layout_weight="1"
             android:background="@color/myBlack"
             android:text="4"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
             android:id="@+id/btn_5"
@@ -196,7 +206,8 @@
             android:layout_weight="1"
             android:background="@color/myBlack"
             android:text="5"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
             android:id="@+id/btn_6"
@@ -207,10 +218,11 @@
             android:layout_weight="1"
             android:background="@color/myBlack"
             android:text="6"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
-            android:id="@+id/btn_minus"
+            android:id="@+id/btn_multiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="1dp"
@@ -219,7 +231,8 @@
             android:layout_weight="1"
             android:background="@color/myGray"
             android:text="*"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
     </LinearLayout>
 
     <LinearLayout
@@ -242,7 +255,8 @@
             android:layout_weight="1"
             android:background="@color/myBlack"
             android:text="1"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
             android:id="@+id/btn_2"
@@ -253,7 +267,8 @@
             android:layout_weight="1"
             android:background="@color/myBlack"
             android:text="2"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
             android:id="@+id/btn_3"
@@ -264,10 +279,11 @@
             android:layout_weight="1"
             android:background="@color/myBlack"
             android:text="3"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
-            android:id="@+id/btn_multiply"
+            android:id="@+id/btn_divide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="1dp"
@@ -276,7 +292,8 @@
             android:layout_weight="1"
             android:background="@color/myGray"
             android:text="/"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
     </LinearLayout>
 
     <LinearLayout
@@ -300,10 +317,11 @@
             android:layout_weight="2"
             android:background="@color/myBlack"
             android:text="0"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
-            android:id="@+id/btn_result"
+            android:id="@+id/btn_comma"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
@@ -312,10 +330,11 @@
             android:layout_weight="1"
             android:background="@color/myBlack"
             android:text="."
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
 
         <Button
-            android:id="@+id/btn_divide"
+            android:id="@+id/btn_result"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
@@ -325,7 +344,17 @@
             android:layout_weight="1"
             android:background="@color/myGray"
             android:text="="
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_text_size" />
     </LinearLayout>
+
+    <Space
+        android:id="@+id/goalLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
